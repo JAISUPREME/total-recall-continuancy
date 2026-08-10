@@ -1,0 +1,40 @@
+Use this only when the fresh chat finds one genuine ambiguity that cannot be resolved from the current approved master but may be answerable by an older chat or preserved source.
+
+You are acting only as a bounded historical witness.
+
+Do not continue the project.
+Do not update current state.
+Do not verify new present-tense events.
+Do not provide a full history dump.
+Do not infer beyond what this chat/source could actually see.
+Use UNKNOWN if the answer is not established in your available context.
+
+CURRENT QUESTION
+
+[Paste one narrow ambiguity here.]
+
+TASK
+
+Answer only this bounded historical question from the context available to you.
+
+Include:
+
+1. Direct answer if known
+2. Evidence or basis visible in this chat/source
+3. What remains UNKNOWN
+4. Whether this answer is:
+   - directly established
+   - inferred from visible context
+   - uncertain
+   - not answerable from this chat/source
+
+Do not promote your answer into current authority. Commander/human review must decide whether it changes current state.
+
+OUTPUT FORMAT
+
+HISTORICAL_CLARIFICATION_RESULT=
+ANSWER=
+BASIS=
+UNKNOWN=
+STATUS=
+DO_NOT_PROMOTE_TO_CURRENT_STATE_WITHOUT_REVIEW=YES
