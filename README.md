@@ -1,8 +1,10 @@
-# total-recall-continuancy
-A free, human-governed method for carrying long-running AI chats and projects into fresh sessions without losing continuity.
 # Total Recall Continuancy
 
-Total Recall Continuancy is a free, human-governed method for converting AI chats into durable master state, re-entering that state in fresh chats, and verifying the handoff before work continues.
+Total Recall Continuancy is a free, human-governed method for carrying long-running AI chats and projects into fresh sessions without losing continuity.
+
+## What it does
+
+It converts AI chat/project history into durable master state, stores that state in user-controlled files, and makes a fresh chat prove it understands the handoff before work continues.
 
 ## The problem
 
@@ -18,20 +20,29 @@ Chat → Extract → Master → Store → Intake → Prove → Clarify → Conti
 
 ## Start here
 
-1. Use the extraction prompt on an old chat.
-2. Create a master continuity document.
-3. Store the master in user-controlled files.
-4. Paste the intake prompt into a fresh chat.
-5. Run an acceptance check before continuing work.
-6. Preserve corrections, supersessions, and artifact lineage.
+1. Read `HOW_TO_USE.md`.
+2. Copy the prompts from `PROMPTS.md`.
+3. Use `WORKED_EXAMPLE.md` to understand the Chat A → B → C lineage pattern.
+4. Use `FRAMEWORK.md` for the governing method.
+5. Save your master/state/provenance/resume files somewhere you control.
 
 ## Files
 
-- `PROMPTS.md` — copy/paste prompt set.
 - `HOW_TO_USE.md` — quickstart.
+- `PROMPTS.md` — complete copy/paste prompt set.
 - `WORKED_EXAMPLE.md` — example handoff.
 - `FRAMEWORK.md` — deeper method notes.
 - `CHANGELOG.md` — version history.
+- `LICENSE.md` — reuse terms.
+- `prompts/` — individual prompt files.
+
+## Core rule
+
+Preserve the source. Preserve the artifact. Preserve the relationship. Preserve the correction. Prove re-entry. Then continue.
+
+## Status
+
+Public V1 launch preparation.
 
 ## Status
 
