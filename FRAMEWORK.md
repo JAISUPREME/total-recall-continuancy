@@ -74,54 +74,6 @@ A new chat receives only the deeper source or artifact branches needed for the c
 
 Search / Source → Capture → Tag → Analyze → Create → Register → Relate / Version → Validate → Master → Human Review → Handoff Acceptance → Continuation
 
-### Search / Source
-
-Identify the actual external, attached, local, or prior artifact being used.
-
-### Capture
-
-Preserve bibliographic identity, exact locator or selector, and appropriate local or archived representation.
-
-### Tag
-
-Assign topic, lane, entities, artifact type, evidence status, version, relationships, and current status.
-
-### Analyze
-
-Separate facts, testimony, inference, user thesis, speculation, dispute, UNKNOWN, and audit gaps.
-
-### Create
-
-Freeze meaningful branches into durable artifacts instead of leaving them only in transient chat.
-
-### Register
-
-Log exact filename, role, origin, status, relationships, preservation level, and fingerprint if frozen.
-
-### Relate / Version
-
-Declare lineage: BUILDS_ON, CORRECTS, SUPERSEDES, CITES, VERIFIES, DERIVED_FROM, BRANCHES_FROM, MERGES_WITH, or REJECTS.
-
-### Validate
-
-Check package completeness, source anchors, and fixity according to profile. Integrity validation does not prove factual truth.
-
-### Master
-
-Assemble continuity state from accumulated records, not from model recollection.
-
-### Human Review
-
-Human review determines current, approved, provisional, rejected, superseded, held, UNKNOWN, and do-not-infer state.
-
-### Handoff Acceptance
-
-The fresh receiver demonstrates understanding before meaningful continuation.
-
-### Continuation
-
-New work proceeds from approved state and preserves the same chain going forward.
-
 ## System layers
 
 ### Raw History
@@ -148,10 +100,6 @@ Human-readable map of current state plus paths to deeper evidence.
 
 Fresh chat demonstrates correct understanding before continuing.
 
-### Continuation
-
-New work proceeds from accepted handoff and creates new lineage.
-
 ### Historical Witness
 
 A prior chat may answer one bounded historical clarification from preserved context. It does not govern present state.
@@ -171,21 +119,6 @@ Chat C does not need Chat A loaded wholesale. It starts from Master B, which poi
 If Chat C encounters a genuine historical ambiguity that Master B cannot resolve, it may generate one bounded clarification request to Chat B or Chat A if the older chat uniquely retains the needed context.
 
 The local repository remains authoritative even if Chat A or Chat B disappears from the provider interface.
-
-## Historical witness rule
-
-A prior chat is a witness, not a ruler.
-
-Its valid role is to answer a narrow historical question from the context it could actually see when that question cannot be resolved from the current approved package.
-
-Rules:
-
-- Ask only one genuine ambiguity at a time.
-- Do not ask an old chat to verify new present-tense events.
-- Do not ask for a full history dump when a bounded answer is sufficient.
-- Do not let the old chat silently promote an old state over the current approved master.
-- Preserve the clarification as a new artifact or event with source identity and relationship to the current master.
-- Human review remains the gate before the clarification changes current state.
 
 ## Continuation Acceptance Test V1
 
@@ -229,87 +162,8 @@ Links are useful retrieval paths, but filename and bibliographic/source identity
 
 The relationship map tells the next chat which files are current, superseded, supporting, derived, verifying, or historical.
 
-## Evidence classes
-
-### Source Record
-
-Preserved evidence object. Immutable once frozen except through a new version or capture.
-
-### Derived Record
-
-Summary, extraction, model synthesis, profile, claim, or memory derived from one or more sources.
-
-### Current State Record
-
-Human-approved pointer to what currently governs action.
-
-### User Thesis
-
-User-proposed interpretation or working theory. Preserved as such unless independently established.
-
-### Structural Inference
-
-Reasoned synthesis that is not itself a directly observed fact.
-
-### Speculative Branch
-
-Possible explanation retained for inquiry but not promoted into current truth.
-
-### UNKNOWN / Audit Gap
-
-Information not established or not independently auditable from available material.
-
-## Failure behavior
-
-Dead URL: Retain bibliographic identity; use archived or local capture when available.
-
-Source page changed: Create new capture/version and retain the predecessor.
-
-Wrong summary promoted to memory: Return to source-grounded record; correct derived state through explicit transition.
-
-Two masters conflict: Human-approved current-state pointer resolves present authority; both remain preserved.
-
-Superseded file resurfaces: Status/relationship graph prevents silent promotion.
-
-Raw provider export imported: Normalize as source/history; never assume current truth or rehydrated continuity.
-
-Handoff not understood: Stop at acceptance/clarification gate; do not continue by inference.
-
-Old chat unavailable: Continue from local approved state; old-chat witness is optional, not a dependency.
-
-Artifact missing: Mark missing or unavailable; do not invent its contents.
-
-## Profiles
-
-### BASIC
-
-Personal/chat continuity: START HERE, master/state, key artifacts, resume.
-
-### RESEARCH
-
-Adds bibliography, exact source selectors, claims ledger, and captured evidence.
-
-### PROJECT
-
-Adds decisions, artifact lineage, statuses, version/release manifests.
-
-### ARCHIVAL
-
-Adds preservation events, full fixity, durable captures, package validation, and stronger metadata.
-
-A profile changes depth, not authority. Human governance and re-entry rules do not weaken in lighter profiles.
-
 ## What this framework does not claim
 
-This framework does not claim:
-
-- That no one else has components of this architecture.
-- That this is the only valid continuity design.
-- That old chats are permanently available, infallible, or authoritative over current state.
-- That a fresh model has consciousness, identity, or subjective continuity because state can be rehydrated.
-- That every artifact must be loaded into every new chat.
-- That cryptographic integrity proves factual truth.
-- That any current provider export fully reconstructs original model/session state.
-- That historical ancestors may be silently rewritten.
+This framework does not claim that no one else has components of this architecture, that this is the only valid continuity design, that old chats are permanently available or authoritative over current state, that a fresh model has consciousness because state can be rehydrated, that every artifact must be loaded into every new chat, that cryptographic integrity proves factual truth, or that historical ancestors may be silently rewritten.
 
 Preserve the source. Preserve the artifact. Preserve the relationship. Preserve the correction. Prove re-entry. Then continue.
