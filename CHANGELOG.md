@@ -4,6 +4,15 @@ All notable public changes to Total Recall Continuancy are recorded here.
 
 This project uses clone-forward public versions. Public files should not be silently rewritten after a tagged release. Corrections and improvements should appear as new versions with notes.
 
+## October 16, 2026 — continuation update
+
+Documentation continuation update. Repository visibility is a separate maintainer action.
+
+- Remove duplicate README Status heading.
+- Add the five individual prompt files already referenced by README/PROMPTS, using the existing complete prompt bodies.
+- Explain the continuity-foundation relationship to the separately prepared current ScrollOS edition; no destination URL invented.
+- Preserve framework, quickstart, worked example and CC-BY-4.0 documentation license unchanged.
+
 ## V1.0.0 — Public launch candidate
 
 Status: private staging

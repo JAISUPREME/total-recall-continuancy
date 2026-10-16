@@ -42,8 +42,10 @@ Preserve the source. Preserve the artifact. Preserve the relationship. Preserve 
 
 ## Status
 
-Public V1 launch preparation.
+V1 continuity foundation, staged for publication.
 
-## Status
+## From Total Recall to the current ScrollOS edition
 
-Public V1 launch preparation.
+This repository preserves the continuity method: user-controlled state, source provenance, corrections and demonstrated fresh-chat intake. Team Jai subsequently applied that discipline across the ScrollOS local-network, local-Book and radio work.
+
+The current selected ScrollOS source/proof edition carries the V763 accepted field baseline and V764 release review. It is being prepared separately; its actual repository link will be added when that destination exists. This page does not claim that the complete ScrollOS runtime is included here.
