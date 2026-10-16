@@ -48,4 +48,4 @@ V1 continuity foundation, staged for publication.
 
 This repository preserves the continuity method: user-controlled state, source provenance, corrections and demonstrated fresh-chat intake. Team Jai subsequently applied that discipline across the ScrollOS local-network, local-Book and radio work.
 
-The current selected ScrollOS source/proof edition carries the V763 accepted field baseline and V764 release review. It is being prepared separately; its actual repository link will be added when that destination exists. This page does not claim that the complete ScrollOS runtime is included here.
+The current [JAI SUPREME with ScrollOS SUPREME selected source/proof edition](https://github.com/JAISUPREME/JAI-SUPREME-with-ScrollOS-SUPREME) carries the V763 accepted field baseline and V764 release review. It is published separately with its own setup guide, selected source snapshots, public fixtures and proof scope. This page does not claim that the complete ScrollOS runtime is included here.
